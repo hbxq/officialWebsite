@@ -3,10 +3,11 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
+	font-family:"微软雅黑"
 }
 
 .fl {
-	float: left;
+	float: left;	
 }
 
 .fr {
@@ -640,6 +641,7 @@ nav#footer{
 	background: #222222;
 	color: #ffffff;
 	padding: 20px 0 15px 0;
+	text-align: center;
 }
 nav#footer .fnav{ vertical-align: middle;}
 ul.footer-social li{
