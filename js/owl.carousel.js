@@ -11,6 +11,22 @@
 /*JS Lint helpers: */
 /*global dragMove: false, dragEnd: false, $, jQuery, alert, window, document */
 /*jslint nomen: true, continue:true */
+// 不是看得到希望才去坚持，而是坚持了才会看到希望。
+// 无论你是身经百战的大神，
+// 还是初出茅庐的小白，
+// 欢迎加入享7美食，成为牛X的人。
+// 请将简历发送至：
+
+try{  
+    if(window.console&&window.console.log)  
+        {  
+            console.log("不是看得到希望才去坚持，而是坚持了才会看到希望。\n无论你是身经百战的大神，\n还是初出茅庐的小白，\n欢迎加入享7美食，成为牛X的人；\n");  
+            console.log("请将简历发送至%cxiangqi2018boss@163.com（邮件标题请以“姓名-应聘XX职位-来自console”命名）","color:red");  
+ 
+        }  
+    }  
+    catch(e){};  
+    
 
 if (typeof Object.create !== "function") {
     Object.create = function (obj) {
